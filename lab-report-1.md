@@ -27,4 +27,20 @@ Congratulations! You've completed the first step, and now have VS code installed
 The next step is to access your terminal *within VS code*, in order to do this you will need to go to **View** on the upper toolbar of your mac and
 scroll down to **Terminal**
 
+
 ![Access Terminal](Screen Shot 2023-04-07 at 9.17.48 AM.png)
+
+
+Once you've accessed the terminal you will enter the command: "ssh cs15lsp23**XX**@ieng6.ucsd.edu" where the "**XX**" is replaced by the two letters
+on your course specific account username. Your course specific account username can be found [here](https://sdacs.ucsd.edu/~icc/index.php). Sign in 
+using your UCSD username and student ID number. Your course specific account username that contains the two letters you will need to replace "**XX**" 
+can be found under the "Additional Accounts" header. 
+
+Now that you have entered "ssh cs15lsp23**XX**@ieng6.ucsd.edu" onto your terminal you will likely receive an expected message that asks for confirmation
+that you want to connect to the remote server. Type in "yes" into your terminal and then press enter. 
+
+The system will then cue you to enter your password for your course specific account. [Instructions on how to reset your password for your account can
+be found here](https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view)
+
+Once you've reset your account password, go back to your terminal on VS code and enter your password in. Keep in mind the password will not be shown 
+on your screen for security reasons. Once
