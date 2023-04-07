@@ -7,7 +7,7 @@ Today we're going to walk through:
 3. Trying different commands out on the remote server
 
 Assuming you already have java installed onto your computer, your first course of action will be to download VS code onto the system. 
-To do this you will have to visit the following link:[Link](https://code.visualstudio.com/)
+To do this you will have to visit the following link:[https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 Once you've downloaded VS code onto your computer, open a new file and continue the extensions tab where you will download the java extension
 onto your system. 
