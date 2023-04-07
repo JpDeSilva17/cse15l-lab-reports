@@ -43,4 +43,7 @@ The system will then cue you to enter your password for your course specific acc
 be found here](https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view)
 
 Once you've reset your account password, go back to your terminal on VS code and enter your password in. Keep in mind the password will not be shown 
-on your screen for security reasons. Once
+on your screen for security reasons. The message on your terminal should look something like this: 
+
+
+![Access Terminal](Screen Shot 2023-04-07 at 9.17.48 AM.png)
