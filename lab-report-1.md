@@ -56,6 +56,6 @@ The next step is to try some of the key commands that we learned in our first da
 2. Next enter 'ls'. This is used to display a list of the files and folders in the given path. 
 3. Now see what happens when you enter in 'ls -a'. You should see something like this: 
 
-![Remote server message](Screen Shot 2023-04-07 at 10.02.03 AM.png)
+!['ls -a'](Screen Shot 2023-04-06 at 4.45.54 PM.png)
 
-Notice the difference between  'ls' and 'ls -a' The command 'ls -a' is used to list all files and directories in the current directory, including hidden files that start with a dot (.) The 'a' in 'ls -a' stands for “all” meaning to not ignore the entries that begin with '.'
+Notice the difference when you enter 'ls -a' as opposed to 'ls'. The command 'ls -a' is used to list all files and directories in the current directory, including hidden files that start with a dot (.) The 'a' in 'ls -a' stands for “all” meaning to not ignore the entries that begin with '.'
