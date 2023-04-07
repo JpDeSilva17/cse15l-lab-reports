@@ -46,4 +46,4 @@ Once you've reset your account password, go back to your terminal on VS code and
 on your screen for security reasons. The message on your terminal should look something like this: 
 
 
-![Access Terminal](Screen Shot 2023-04-07 at 9.17.48 AM.png)
+![Remote server message](Screen Shot 2023-04-07 at 10.02.03 AM.png)
