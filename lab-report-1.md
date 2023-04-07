@@ -59,3 +59,5 @@ The next step is to try some of the key commands that we learned on our first da
 !['ls -a'](Screen Shot 2023-04-06 at 4.45.54 PM.png)
 
 Notice the difference when you enter 'ls -a' as opposed to 'ls'. The command 'ls -a' is used to list all files and directories in the current directory, including hidden files that start with a dot (.) The 'a' in 'ls -a' stands for “all” meaning to not ignore the entries that begin with '.'
+
+Congratulations! Upon completion of this tutorial you have downloaded VS code onto your system, set up your client to connect remotely using ssh to an @ieng6 server, and tried some of the key commands we learned in class to search through the different file paths and directories on the remote server!
