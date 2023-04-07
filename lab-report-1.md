@@ -15,5 +15,5 @@ To do this you will have to visit the following link:[https://code.visualstudio.
 
 
 
-Once you've downloaded VS code onto your computer, open a new file and continue the extensions tab where you will download the java extension
-onto your system. 
+Once you've downloaded VS code onto your computer, open a new file and continue to the extensions tab where you will download the java extension
+onto your system. The extensions tab looks like this: ![Visual Studio Code]()
