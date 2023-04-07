@@ -24,4 +24,7 @@ onto your system. The extensions tab looks like this:
 
 Congratulations! You've completed the first step, and now have VS code installed onto your system!
 
-The next step is to access your terminal within VS code
+The next step is to access your terminal *within VS code*, in order to do this you will need to go to **View** on the upper toolbar of your mac and
+scroll down to **Terminal**
+
+![Access Terminal](Screen Shot 2023-04-07 at 9.17.48 AM.png)
