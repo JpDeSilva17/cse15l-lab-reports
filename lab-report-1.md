@@ -6,7 +6,7 @@ Today we're going to walk through:
 2. Setting up your client to connect remotely using ssh to an @ieng6 server
 3. Trying different key commands out to access the different paths and working directories on the remote server
 
-Assuming you already have java installed onto your computer, your first course of action will be to download VS code onto the system. 
+Your first course of action will be to download VS code onto the system. 
 To do this you will have to visit the following link:[https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 
