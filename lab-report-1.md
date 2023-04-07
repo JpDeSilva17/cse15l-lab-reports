@@ -47,3 +47,6 @@ on your screen for security reasons. The message on your terminal should look so
 
 
 ![Remote server message](Screen Shot 2023-04-07 at 10.02.03 AM.png)
+
+
+Congratulations! You have accessed a remote @ieng6 server using ssh!
