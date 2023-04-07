@@ -20,4 +20,4 @@ onto your system. The extensions tab looks like this:
 
 
                                                        
-                                                       ![Extensions tab](Screen Shot 2023-04-06 at 8.03.24 PM.png)
+                                                           ![Extensions tab](Screen Shot 2023-04-06 at 8.03.24 PM.png)
