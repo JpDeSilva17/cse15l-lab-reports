@@ -20,3 +20,8 @@ onto your system. The extensions tab looks like this:
 
 
 ![Extensions tab](Screen Shot 2023-04-06 at 8.03.24 PM.png)
+
+
+Congratulations! You've completed the first step, and now have VS code installed onto your system!
+
+The next step is to access your terminal within VS code
