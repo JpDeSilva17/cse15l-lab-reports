@@ -8,6 +8,7 @@ Today we're going to walk through:
 
 Assuming you already have java installed onto your computer, your first course of action will be to download VS code onto the system. 
 To do this you will have to visit the following link:[https://code.visualstudio.com/](https://code.visualstudio.com/)
+![Image]()
 
 Once you've downloaded VS code onto your computer, open a new file and continue the extensions tab where you will download the java extension
 onto your system. 
