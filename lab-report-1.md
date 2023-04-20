@@ -47,11 +47,15 @@ that you want to connect to the remote server. Type in "yes" into your terminal 
 The system will then cue you to enter your password for your course specific account. [Instructions on how to reset your password for your account can
 be found here](https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view)
 
+
+
 Once you've reset your account password, go back to your terminal on VS code and enter your password in. Keep in mind the password will not be shown 
 on your screen for security reasons. The message on your terminal should look something like this: 
 
 
 ![Remote server message](Screen Shot 2023-04-07 at 10.02.03 AM.png)
+
+
 
 
 Congratulations! You have accessed a remote @ieng6 server using ```ssh```!
@@ -65,14 +69,27 @@ The next step is to try some of the key commands that we learned on our first da
 
 !['ls -a'](Screen Shot 2023-04-06 at 4.45.54 PM.png)
 
+
+
 Notice the difference when you enter ```ls -a``` as opposed to ```ls```. The command ```ls -a``` is used to list all files and directories in the current directory, including hidden files that start with a ```dot (.)``` The ```a``` in ```ls -a``` stands for “all” meaning to not ignore the entries that begin with ```.```
 
-Now we're goint to try the command ```ls -lat``` 
+Now we're goint to try the command ```ls -lat```.
+
+
 
 !['ls -lat'](Screen Shot 2023-04-20 at 11.11.04 AM.png )
 
 It's important to note that each component of the command ```ls -lat``` serves a specific purpose. The ```ls``` stands for 'list' and serves to display 
 the contents of a directory. The ```-l``` displays the files in the directory in "long format". The ```a```, similar to before with the ```ls -a``` 
 command, serves to list all files and directories in the current directory, including the ```dot (.)``` files. Finally, the ```-t``` sorts the files and directories by modification time. With the files that have been edited most recently appearing first. 
+
+Finally we will try the ```pwd``` command out.
+
+
+!['pwd'](Screen Shot 2023-04-20 at 11.23.07 AM.png)
+
+
+The ```pwd``` command stands for "print working directory". This is the directory you are currently in within the file system heirarchy.  
+
 
 Congratulations! Upon completion of this tutorial you have downloaded VS code onto your system, set up your client to connect remotely using ssh to an @ieng6 server, and tried some of the key commands we learned in class to search through the different file paths and directories on the remote server!
