@@ -6,6 +6,9 @@ Today we're going to walk through:
 2. Setting up your client to connect remotely using ```ssh``` to an @ieng6 server
 3. Trying different key commands out to access the different paths and working directories on the remote server
 
+
+# Installing VS Code
+
 Your first course of action will be to download VS code onto the system. 
 To do this you will have to visit the following link:[https://code.visualstudio.com/](https://code.visualstudio.com/)
 
@@ -23,6 +26,8 @@ onto your system. The extensions tab looks like this:
 
 
 Congratulations! You've completed the first step, and now have VS code installed onto your system!
+
+# Connect To A Remote Server 
 
 The next step is to access your terminal *within VS code*, in order to do this you will need to go to **View** on the upper toolbar of your mac and
 scroll down to **Terminal**
@@ -51,6 +56,8 @@ on your screen for security reasons. The message on your terminal should look so
 
 Congratulations! You have accessed a remote @ieng6 server using ```ssh```!
 
+# Try Some Commands!
+
 The next step is to try some of the key commands that we learned on our first day in class ```(pwd, ls, cd)```  
 1. Enter ```pwd``` into your terminal. This will display the current working directory. 
 2. Next enter ```ls```. This is used to display a list of the files and folders in the given path. 
@@ -59,5 +66,13 @@ The next step is to try some of the key commands that we learned on our first da
 !['ls -a'](Screen Shot 2023-04-06 at 4.45.54 PM.png)
 
 Notice the difference when you enter ```ls -a``` as opposed to ```ls```. The command ```ls -a``` is used to list all files and directories in the current directory, including hidden files that start with a ```dot (.)``` The ```a``` in ```ls -a``` stands for “all” meaning to not ignore the entries that begin with ```.```
+
+Now we're goint to try the command ```ls -lat``` 
+
+!['ls -lat'](Screen Shot 2023-04-20 at 11.11.04 AM.png )
+
+It's important to note that each component of the command ```ls -lat``` serves a specific purpose. The ```ls``` stands for 'list' and serves to display 
+the contents of a directory. The ```-l``` displays the files in the directory in "long format". The ```a```, similar to before with the ```ls -a``` 
+command, serves to list all files and directories in the current directory, including the ```dot (.)``` files. Finally, the ```-t``` sorts the files and directories by modification time. With the files that have been edited most recently appearing first. 
 
 Congratulations! Upon completion of this tutorial you have downloaded VS code onto your system, set up your client to connect remotely using ssh to an @ieng6 server, and tried some of the key commands we learned in class to search through the different file paths and directories on the remote server!
