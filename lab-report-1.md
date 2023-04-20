@@ -92,4 +92,4 @@ Finally we will try the ```pwd``` command out.
 The ```pwd``` command stands for "print working directory". This is the directory you are currently in within the file system heirarchy.  
 
 
-Congratulations! Upon completion of this tutorial you have downloaded VS code onto your system, set up your client to connect remotely using ssh to an @ieng6 server, and tried some of the key commands we learned in class to search through the different file paths and directories on the remote server!
+Congratulations! Upon completion of this tutorial you have downloaded VS code onto your system, set up your client to connect remotely using ```ssh``` to an @ieng6 server, and tried some of the key commands we learned in class to search through the different file paths and directories on the remote server!
