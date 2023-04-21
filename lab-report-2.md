@@ -13,10 +13,16 @@ The key change in the code happens in the ```else``` statement of the ```handleR
 !['StringServer code'](StringServer.png)
 
 
+
+Enter ```localhost:PORT/add-message?s=<string>```. I chose ```Banana``` for my string and the output is:
+
 !['Banana'](Banana.png)
 
 
-!['Banana King'](Screen Shot 2023-04-21 at 8.44.14 AM.png)
+Now repeat the process, but with different string, in my case I chose ```King``` and the output is: 
+
+
+!['Banana King'](BananaKing.png)
 
 
 
