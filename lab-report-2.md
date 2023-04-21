@@ -19,7 +19,7 @@ Enter ```localhost:PORT/add-message?s=<string>```. I chose ```Banana``` for my s
 !['Banana'](Banana.png)
 
 
-Now repeat the process, but with different string, in my case I chose ```King``` and the output is: 
+Now repeat the process, but with a different string, in my case I chose ```King``` and the output is: 
 
 
 !['Banana King'](BananaKing.png)
