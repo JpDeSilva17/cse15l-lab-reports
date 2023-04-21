@@ -34,6 +34,8 @@ The second call to the ```handleRequest``` method takes the same steps as before
 # Part 2
 
 The code we will be working with for part 2:
+
+
 ```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
@@ -41,6 +43,8 @@ static void reverseInPlace(int[] arr) {
     }
   }
   ```
+  
+  
  This method is meant to reverse the order of the integer array that is provided as a parameter, but it has a couple of bugs that aren't immediately detectable by a Junit test. 
  ```@Test```
 	```public void testReverseInPlace() {```
