@@ -13,16 +13,23 @@ The key change in the code happens in the ```else``` statement of the ```handleR
 !['StringServer code'](StringServer.png)
 
 
-
+Once the server has been created using the main method, follow the link that should take you to the server labeled ```localhost:PORT```
 Enter ```localhost:PORT/add-message?s=<string>```. I chose ```Banana``` for my string and the output is:
 
 !['Banana'](Banana.png)
+
+It is important to note what is going on in the code when we enter this command. The ```handleRequest``` method gets called, and it first checks whether the file path is equal to ```'/'``` using an ```if``` statement that calls the ```.getPath()``` and ```.equals()``` methods. Since our file path contains more than just ```'/'``` it continues on to the ```else``` statement where we prompt the code to seek out ```add-message```. If the ```add-message``` string is present, the code creates a String array called ```parameters``` which itself calls the ```getQuery``` method and ```splits``` the ```query``` at the ```'='``` sign. Then the code checks to see if ```index [0]``` of the ```parameters``` array is ```.equals()``` to the ```string 's'```, and if it is, formats and prints the contents of ```parameters[1]``` to the web server, which in this case is ```Banana```. The values of the relevant fields change according to the input on the path. For example, ```parameters[1]``` could be anything that we want to print out onto the server, but it only works if the
+```String 's'``` makes up the first part of the query before the ```=``` sign. 
+
+
 
 
 Now repeat the process, but with a different string, in my case I chose ```King``` and the output is: 
 
 
 !['Banana King'](BananaKing.png)
+
+The second call 
 
 
 
