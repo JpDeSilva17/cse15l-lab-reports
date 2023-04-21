@@ -13,7 +13,7 @@ The key change in the code happens in the ```else``` statement of the ```handleR
 !['StringServer code'](Screen Shot 2023-04-21 at 8.46.47 AM.png)
 
 
-!['Banana'](Screen Shot 2023-04-21 at 8.45.29 AM.png)
+!['Banana'](Banana.png)
 
 
 !['Banana King'](Screen Shot 2023-04-21 at 8.44.14 AM.png)
