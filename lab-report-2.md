@@ -89,7 +89,7 @@ static void reverseInPlace(int[] arr) {
   
   Implementing these fixes allows us to pass our Junit test with multiple elements in an array as well as allowing for the ```reverseInPlace``` method to work on arrays that have more than one element in the future. 
   
-  # Part 3
+# Part 3
   
 To be completely honest, I had no idea how to use Junit before lab this week. I had been struggling for days on Junit trying to write test methods for my PA in CSE 12, and Professor Joe's lectures, along with the lab, helped to clear up a lot of confusion as well as providing helpful examples on the right way to implement it. One key component of the lecture that has saved me a lot of time was creating a common ```void testRequest(int num, int expect)``` method, so that I could better generalize my tests and save myself a lot of typing.  
   
