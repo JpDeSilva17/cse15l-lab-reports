@@ -70,7 +70,27 @@ static void reverseInPlace(int[] arr) {
 ```
 	
   This Junit test returns: ```'arrays first differed at element [3]; expected: [2] but was: [4] at ArraysTests...'```
+  
+  !['Junit error'](Screen Shot 2023-04-21 at 1.13.43 PM.png)
+  
   This shows us that there are some bugs in our program that we need to fix. 
+  Here is the correct code: 
+  
+  ```
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length / 2; i += 1) {
+      int temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp;
+    }
+  }
+  ```
+  The first fix is making the upper bound for the ```for loop``` be ```arr.length / 2```. This is so that our code performs the appropriate transformations on the first half of the array and then leaves the second half for appropriate reassignment. The second bug that we needed to fix was creating a temporary variable for which to assign ```arr[i]``` while we perform our transformation on the first half of the array. This then allows us to assign the proper values to the second half of the array. 
+  
+  Implementing these fixes allows us to pass our Junit test with multiple elements in an array as well as allowing for the ```reverseInPlace``` method to work on arrays that have more than one element in the future. 
+  
+  # Part 3
+To be completely honest, I had no idea how to use Junit before lab this week. I had been struggling for days on Junit trying to write test methods for my PA in CSE 12, and Professor Joe's lectures, along with the lab, helped to clear up a lot of confusion as well as providing helpful examples on the right way to implement it. One key component of the lecture that has saved me a lot of time was creating a common ```void testRequest(int num, int expect)``` method, so that I could better generalize my tests and save myself a lot of typing.  
   
 
 
