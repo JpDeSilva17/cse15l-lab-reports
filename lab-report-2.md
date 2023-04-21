@@ -46,19 +46,29 @@ static void reverseInPlace(int[] arr) {
   
   
  This method is meant to reverse the order of the integer array that is provided as a parameter, but it has a couple of bugs that aren't immediately detectable by a Junit test. 
- ```@Test```
-	```public void testReverseInPlace() {```
-    ```int[] input1 = { 3 };```
-    ```ArrayExamples.reverseInPlace(input1);```
-    ```assertArrayEquals(new int[]{ 3 }, input1);```
-	```}```
+ 
+ 
+ ```
+ @Test
+ public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
+```
+	
+	
   This Junit test above provides an integer array with only one element, so the test passes since reversing one element returns the same element within the array, but notice what happens when we write a test with multiple elements in an array..
-  ```@Test```
-	```public void testReverseInPlace2() {```
-    ```int[] input1 = {1, 2, 3, 4, 5};```
-    ```ArrayExamples.reverseInPlace(input1);``` 
-    ```assertArrayEquals(new int[]{ 5, 4, 3, 2, 1 }, input1);```
-	```}```
+  
+  ```
+  @Test
+  public void testReverseInPlace2() {
+    int[] input1 = {1, 2, 3, 4, 5};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 5, 4, 3, 2, 1 }, input1);
+	}
+```
+	
   This Junit test returns: ```'arrays first differed at element [3]; expected: [2] but was: [4] at ArraysTests...'```
   This shows us that there are some bugs in our program that we need to fix. 
   
