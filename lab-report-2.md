@@ -10,7 +10,7 @@ The code begins by initializing two variables, an empty string, and an int at 0.
 The key change in the code happens in the ```else``` statement of the ```handleRequest``` method. We are prompting the code to seek out the string ```add-message``` in the URL path to begin the process of identifying the strings we want to print out onto our web server. If ```add-message``` is present, then we create a new String array that splits the ```Query``` of the argument at the ```'='``` sign, and looks for the first element in that array to be the String ```'s'```, and if it is, then the program procedes to print out the lines at index 1 of the ```parameters``` array on a new line using ```"\n"```. Note that the values of relevant fields change as soon as we assume that a string is being provided as the argument in the query and not an integer. 
 
 
-!['StringServer code'](Screen Shot 2023-04-21 at 8.46.47 AM.png)
+!['StringServer code'](StringServer.png)
 
 
 !['Banana'](Banana.png)
