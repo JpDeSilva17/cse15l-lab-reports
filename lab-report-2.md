@@ -85,6 +85,11 @@ static void reverseInPlace(int[] arr) {
     }
   }
   ```
+  
+  Here is a screenshot of the Junit tests passing on the command line: 
+  
+ !['Junit pass'](Command Line.png)
+  
   The first fix is making the upper bound for the ```for loop``` be ```arr.length / 2```. This is so that our code performs the appropriate transformations on the first half of the array and then leaves the second half for appropriate reassignment. The second bug that we needed to fix was creating a temporary variable for which to assign ```arr[i]``` while we perform our transformation on the first half of the array. This then allows us to assign the proper values to the second half of the array. 
   
   Implementing these fixes allows us to pass our Junit test with multiple elements in an array as well as allowing for the ```reverseInPlace``` method to work on arrays that have more than one element in the future. 
