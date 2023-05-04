@@ -86,6 +86,10 @@ static void reverseInPlace(int[] arr) {
   }
   ```
   
+  To run the Junit tests using the command line enter: 
+  ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java```
+  Followed by:
+  ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests JUnit version 4.13.2```
   Here is a screenshot of the Junit tests passing on the command line: 
   
  !['Junit pass'](Command Line.png)
