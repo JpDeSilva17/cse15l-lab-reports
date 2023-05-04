@@ -27,7 +27,7 @@ It is important to note what is going on in the code when we enter this command.
 Now repeat the process, but with a different string, in my case I chose ```King``` and the output is: 
 
 
-!['Banana King'](BananaKing.png)
+!['Banana King'](Screen Shot 2023-05-03 at 4.56.49 PM.png)
 
 The second call to the ```handleRequest``` method takes the same steps as before. Once it identifies ```add-message``` in the file path, the code procedes to create the ```parameters``` array by splitting the query at the ```'='``` sign. The relevant field of ```parameters[1]``` has now become the ```string 'King'``` effectively printing out ```Banana King``` onto the server since we have retained the previous value of ```parameters[1]``` by adding it to the empty string we initialized at the beginning of the program. 
 
