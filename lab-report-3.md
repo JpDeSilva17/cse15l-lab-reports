@@ -43,7 +43,14 @@ The following ```grep -c``` command was used to search the amount of lines that 
 30
 ```
 
-grep -l
+# grep -l
+
+The ```grep -l```  command is used to display the names of files that contain a certain pattern or word. This can be useful in situations where you are 
+trying to quickly identify which files contain a certain pattern or word without having to open each file and manually search for it.
+
+The following ```grep -l``` command is used to search the files where the word "space" exists within the 
+```stringsearch-data/technical/government/Media/``` directory: 
+
 ```
 [cs15lsp23lw@ieng6-201]:stringsearch:484$ grep -l "space" stringsearch-data/technical/government/Media/*.txt
 stringsearch-data/technical/government/Media/5_Legal_Groups.txt
@@ -57,7 +64,9 @@ stringsearch-data/technical/government/Media/defend_yourself.txt
 stringsearch-data/technical/government/Media/not_accessible_to_disabled.txt
 ```
 
-grep -l
+The following ```grep -l``` command is used to search the files where the word "machine" exists within the 
+```stringsearch-data/technical/government/Media/``` directory: 
+
 ```
 [cs15lsp23lw@ieng6-201]:stringsearch:486$ grep -l "machine" stringsearch-data/technical/government/Media/*.txt
 stringsearch-data/technical/government/Media/Free_Legal_Assistance.txt
