@@ -22,11 +22,15 @@ directory. I chose to use the same files that were provided for ```stringsearch-
 
 I found all of the commands I used from the official ```grep``` documentation on [gnu.org](https://www.gnu.org/software/grep/manual/grep.html).
 
+
+
 # grep -c
+
 
 ```grep -c``` is a command that is used to count the number of lines that a particular word or pattern appears in within a file. This can be useful in
 situations where you're only interested in the amount of times that a certain word appears in a file without needing to know the actual content of those 
 lines.
+
 
 
 The following ```grep -c``` command was used to search the amount of lines that the word "law" appeared in the Survey.txt file in the technical directory:
@@ -37,16 +41,21 @@ The following ```grep -c``` command was used to search the amount of lines that 
 ```
 
 
+
 The following ```grep -c``` command was used to search the amount of lines that the word "and" appeared in the Survey.txt file in the technical directory:
+
 ```
 [cs15lsp23lw@ieng6-201]:stringsearch:470$ grep -c "and" stringsearch-data/technical/government/Media/Survey.txt
 30
 ```
 
+
 # grep -l
 
 The ```grep -l```  command is used to display the names of files that contain a certain pattern or word. This can be useful in situations where you are 
 trying to quickly identify which files contain a certain pattern or word without having to open each file and manually search for it.
+
+
 
 The following ```grep -l``` command is used to search the files where the word "space" exists within the 
 ```stringsearch-data/technical/government/Media/``` directory: 
@@ -64,6 +73,8 @@ stringsearch-data/technical/government/Media/defend_yourself.txt
 stringsearch-data/technical/government/Media/not_accessible_to_disabled.txt
 ```
 
+
+
 The following ```grep -l``` command is used to search the files where the word "machine" exists within the 
 ```stringsearch-data/technical/government/Media/``` directory: 
 
@@ -73,10 +84,15 @@ stringsearch-data/technical/government/Media/Free_Legal_Assistance.txt
 stringsearch-data/technical/government/Media/Pro-bono_road_show.txt
 stringsearch-data/technical/government/Media/Terrorist_Attack.txt
 ```
+
+
 # grep -rn
+
 
 The ```grep -rn``` command is used to recursively search through all of the subdirectories under a directory for the file name and the line number 
 and contents of a particular pattern. the ```r``` is for recursive while the ```n``` is for number. This is useful, because it adds a more detailed element to the previous command whereas ```grep -l``` only prints out the file in which a pattern exists, ```grep -rn``` prints out the file, the line number, and the line in which the pattern exists. 
+
+
 
 The following ```grep -rn``` command is used to recursively search through the subdirectories of ```technical/``` in which the word "machine" exists, and proceeds to display the file name, and the line number/contents. 
 
@@ -88,6 +104,8 @@ stringsearch-data/technical/government/Media/Terrorist_Attack.txt:36:Yee, at the
 stringsearch-data/technical/government/Media/Terrorist_Attack.txt:38:"I took the cord out of the wall from the fax machine," Mr.
 ```
 
+
+
 The following ```grep -rn``` command is used to recursively search through the subdirectories of ```technical/``` in which the word "machine" exists, and proceeds to display the file name, and the line number/contents. 
 
 ```
@@ -95,15 +113,29 @@ The following ```grep -rn``` command is used to recursively search through the s
 stringsearch-data/technical/government/Media/Abuse_penalties.txt:16:after a hearing or through a technical violation or plea.
 stringsearch-data/technical/government/Media/New_Online_Resources.txt:27:complex," she added, "but it really allows nontechnical people like
 ```
+
+
 # grep -o 
 
+
+The ```grep -o``` command is used to display only the matched pattern or word and its corresponding file, rather than the entire contents of the line. This is useful for when you're  searching for a specific pattern or word within a file, and you only want to see the exact matches without any extra text.
+
+
+
+The following is a ```grep -o``` command that searches for exact instances of the word "technical" within the 
+```stringsearch-data/technical/government/Media/*.txt``` directory:
 
 ```
 [cs15lsp23lw@ieng6-201]:stringsearch:490$ grep -o  "technical" stringsearch-data/technical/government/Media/*.txt
 stringsearch-data/technical/government/Media/Abuse_penalties.txt:technical
 stringsearch-data/technical/government/Media/New_Online_Resources.txt:technical
 ```
-grep -o
+
+
+
+The following is a ```grep -o``` command that searches for exact instances of the word "machine" within the 
+```stringsearch-data/technical/government/Media/*.txt``` directory:
+
 ```
 [cs15lsp23lw@ieng6-201]:stringsearch:491$ grep -o  "machine" stringsearch-data/technical/government/Media/*.txt
 stringsearch-data/technical/government/Media/Free_Legal_Assistance.txt:machine
