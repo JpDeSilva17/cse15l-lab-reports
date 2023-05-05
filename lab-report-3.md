@@ -73,7 +73,13 @@ stringsearch-data/technical/government/Media/Free_Legal_Assistance.txt
 stringsearch-data/technical/government/Media/Pro-bono_road_show.txt
 stringsearch-data/technical/government/Media/Terrorist_Attack.txt
 ```
-grep -rn
+# grep -rn
+
+The ```grep -rn``` command is used to recursively search through all of the subdirectories under a directory for the file name and the line number 
+and contents of a particular pattern. the ```r``` is for recursive while the ```n``` is for number. This is useful, because it adds a more detailed element to the previous command whereas ```grep -l``` only prints out the file in which a pattern exists, ```grep -rn``` prints out the file, the line number, and the line in which the pattern exists. 
+
+The following ```grep -rn``` command is used to recursively search through the subdirectories of ```technical/``` in which the word "machine" exists, and proceeds to display the file name, and the line number/contents. 
+
 ```
 grep -rn [cs15lsp23lw@ieng6-201]:stringsearch:487$ grep -rn  "machine" stringsearch-data/technical/government/Media/*.txt
 stringsearch-data/technical/government/Media/Free_Legal_Assistance.txt:82:use the two machines.
@@ -81,13 +87,17 @@ stringsearch-data/technical/government/Media/Pro-bono_road_show.txt:17:Pecina, 3
 stringsearch-data/technical/government/Media/Terrorist_Attack.txt:36:Yee, at the fax machine. She had just sent the official news to the
 stringsearch-data/technical/government/Media/Terrorist_Attack.txt:38:"I took the cord out of the wall from the fax machine," Mr.
 ```
-grep -rn 
+
+The following ```grep -rn``` command is used to recursively search through the subdirectories of ```technical/``` in which the word "machine" exists, and proceeds to display the file name, and the line number/contents. 
+
 ```
 [cs15lsp23lw@ieng6-201]:stringsearch:488$ grep -rn  "technical" stringsearch-data/technical/government/Media/*.txt
 stringsearch-data/technical/government/Media/Abuse_penalties.txt:16:after a hearing or through a technical violation or plea.
 stringsearch-data/technical/government/Media/New_Online_Resources.txt:27:complex," she added, "but it really allows nontechnical people like
 ```
-grep -o 
+# grep -o 
+
+
 ```
 [cs15lsp23lw@ieng6-201]:stringsearch:490$ grep -o  "technical" stringsearch-data/technical/government/Media/*.txt
 stringsearch-data/technical/government/Media/Abuse_penalties.txt:technical
