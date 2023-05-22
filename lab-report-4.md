@@ -52,6 +52,28 @@ This is followed by: ```i``` to access Insert mode, and ```<bs>2``` to delete th
 variable to ```index2```. Now that we have fixed our code we enter ```<esc>``` to leave Insert mode and go back to Normal mode. 
 Finally, we use ```:wq``` to save and quit the changes we made on our file. 
 
+# Step 5: Run tests to demonstrate they pass
+
+!['pass tests'](test pass.png)
+
+Now that we are back on the command line we will use the command ```bash test.sh <enter>``` to demonstrate that our changes to the code were 
+successful and that our tests on the shell script now pass on the bash interpreter. 
+
+# Step 6: Commit and Push
+
+Now that our changes to ```ListExamples.java``` have been completed we are ready to commit and push the changes to our Github account. 
+
+First, we will enter the command ```git add ListExamples.java```. The ```git add``` command is used to let the system know that we want 
+to include the changes we made to ```ListExamples.java``` in our next commit. 
+
+The final step is to commit the changes using the command: ```git commit -m "added ListExamples.java"```. The ```git commit``` command 
+is used to commit the changes while ```-m``` is letting the system know that we plan on adding a commit message. In this case just noting 
+that the particular commit added changes to ```ListExamples.java```. 
+
+# Conlusion
+
+With this step by step guide you have learned the purpose behind each specific command needed to load and edit a file on a remote server
+using git repositories, as well as how to commit and push those changes onto your Github account. 
 
 
 
