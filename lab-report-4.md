@@ -19,6 +19,12 @@ fast access, and press ```<enter>```.
 
 !['init, branch, clone'](git init.png)
 
+Our first command is ```git init <enter>``` to initialize a new git repository to our current directory. This will display a historical message suggesting that we modify the name of our root branch, so we do: ```git branch -m main``` to take the recommendation. 
+
+Now we are ready to clone the fork of the repository from our Github account with the command: 
+```git clone https://github.com/ucsd-cse15l-s23/lab7```
+The ```git clone``` command creates a new directory with the same contents and history as the original repository. This is followed 
+by the url link to the fork of the Github repository that we want to clone. 
 
 
 
