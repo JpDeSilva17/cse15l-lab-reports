@@ -7,6 +7,8 @@ and push our changes onto our Github account and produce an arbitrary commit mes
 
 # Step 1: Log into ieng6
 
+!['Succesful login to ssh'](StringServer.png)
+
 Using the command: ```ssh cs15lsp23XX@ieng6.ucsd.edu <enter>``` log into ieng6. 
 
 We use ```ssh``` or Secure Shell, because it provides an ecrypted connection to our client server. It is a cryptographic network that
