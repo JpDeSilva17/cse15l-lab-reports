@@ -33,12 +33,25 @@ by the [url link](https://github.com/ucsd-cse15l-s23/lab7) to the fork of the Gi
 Our first step is to: ```cd lab7 <enter>```. The ```cd``` command serves to change the current working directory on the command line. 
 We then enter ```lab7``` because that is the name of the directory that we want to work with. 
 
-The next command is: ```bash test.sh```. This uses the bash interpreter to test a shell script. The tests demonstrably fail since 
+The next command is: ```bash test.sh <enter>```. This uses the bash interpreter to test a shell script. The tests demonstrably fail since 
 no changes have been made to the code as of yet. 
 
 # Step 4: Fix the code
 
-!['Succesful login to ssh'](Login to ssh.png)
+To access ```ListExamples.java``` first enter the command ```vim ListExamples.java <enter>```. The ```vim``` command serves to access
+the file that we want using the vim text editor. It is a powerful editor that allows us to enter all of our commands with our keyboard. 
+
+!['Fix code'](Change code.png)
+
+Now that we have the file open, we want to access the line that we want to change with as few commands as possible. The commands I chose 
+to enter were: ```44G <enter>``` on normal mode, this allows us to access line 44 on the file which is the line that we want to change.
+
+The next command, also on the original normal mode is: ```llllll``` this allows us to traverese the line to the right. The ```l``` command
+is used, because it is furthest to the right of the ```hjkl``` commands which are used to traverse in any direction in normal mode. 
+This is followed by: ```i``` to access Insert mode, and ```<bs>2``` to delete the ```1``` from the ```index1``` variable to change the 
+variable to ```index2```. Now that we have fixed our code we enter ```<esc>``` to leave Insert mode and go back to Normal mode. 
+Finally, we use ```:wq``` to save and quit the changes we made on our file. 
+
 
 
 
