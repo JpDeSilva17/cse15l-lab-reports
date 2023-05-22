@@ -15,5 +15,9 @@ We use ```ssh``` or Secure Shell, because it provides an ecrypted connection to 
 provides us secure access to remote servers. Then we enter in our course specific account that has had a private key generated for 
 fast access, and press ```<enter>```.
 
+# Step 2: Clone fork of the repository from Github account 
+
+
+
 
 
