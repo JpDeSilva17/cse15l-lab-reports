@@ -17,7 +17,11 @@ fast access, and press ```<enter>```.
 
 # Step 2: Clone fork of the repository from Github account 
 
-!['Succesful login to ssh']()
+!['init, branch, clone'](git init.png)
+
+
+
+
 
 
 
