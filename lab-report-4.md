@@ -7,7 +7,7 @@ and push our changes onto our Github account and produce an arbitrary commit mes
 
 # Step 1: Log into ieng6
 
-!['Succesful login to ssh'](StringServer.png)
+!['Succesful login to ssh'](Login to ssh.png)
 
 Using the command: ```ssh cs15lsp23XX@ieng6.ucsd.edu <enter>``` log into ieng6. 
 
