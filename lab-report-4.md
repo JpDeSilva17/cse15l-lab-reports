@@ -61,6 +61,8 @@ successful and that our tests on the shell script now pass on the bash interpret
 
 # Step 6: Commit and Push
 
+!['git commit'](git commit.png)
+
 Now that our changes to ```ListExamples.java``` have been completed we are ready to commit and push the changes to our Github account. 
 
 First, we will enter the command ```git add ListExamples.java```. The ```git add``` command is used to let the system know that we want 
