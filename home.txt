@@ -1,0 +1,242 @@
+5/22
+
+We got what is likely to be another long day ahead. Definitely the lab report and the cogs quiz take priority. Math homework as well and then a PA. 
+We do have a CS15l lecture today at 2. If we shower now we can make it to school to work on the lab report and hopefully finish before lecture. 
+Then we can do the cogs quiz from 3-4, and then work on math from 4-7. Tomorrow will be a great opportunity for a work day as well mainly centered around the PA. 
+The more we get done during the week, the more time we get to spend with our friends come the weekend. I'd like to believe I have most of this shit under control. 
+We'll shower and make it school by 11:30, then work until 1:50. The lab report should be done by then. Go to lecture and then work on the cogs quiz. 
+We will reevaluate then. This is our opportunity for a bit of a reset. We got about as much work as we needed to over the weekend. 
+A little under a month left until things come to a decisive turn. This is where it is imperative to have an element of faith. The more we think, the more waste. 
+
+Let's get it going before it gets late. We can finish early and then come home to play videogames. Fran and I will be okay. 
+
+We called 11:30, now lets focus. We have all of the screenshots and the commands for the lab report. Start typing with all of your fingers.  
+
+
+5/20 
+
+I won't say everything again. I don't know if I forgot to save or what the fuck, but I'm wasting time already. 
+
+5/18
+
+The exam went meh, but it's over now and there's no help dwelling on it. Looking towards the weekend there is only one thing we have to turn in Monday.
+Thankfully, the resubmission for lab report 3 isn't due until Wednesday, so if we don't get the opportunity to work while we're here we'll look towards then.
+We have math homework due Tuesday night which we can deal with then. There will also be another PA as well as the quiz 3 retake.
+I'm currently waiting at the airport for Fran's mom to get here. It shouldn't be much longer and I am a bit nervous, but the beer helped settle the nerves off.
+I feel like I am under a lot of pressure, but at the same time its all self inflicted. Just relax and let life unfold.
+Our worst case scenario is laying on a beach half way across the world working an underpaid job. Feel incredibly fortunate to have the girlfriend you have.
+You only get this opportunity once in a life time. Take the pressure off and try to relax. It is our only choice in life.
+I wonder if I should make a different file for the google docs journals and I'm thinking that I just might.
+
+We do what we can in the next hour or so. Plenty of individual introductions that I have been primed for.
+ 
+5/17
+Let's get this show on the road. 
+
+This is a monumental step to get going. There is so much to learn and only a limited amount of time.
+I guess this is one of those things where there is never a finishing line. I can only expand as far as my mind allows.
+I have done a disservece to myself over the last 5 years. It's time to turn a new leaf. Quite literally. This is as private as private gets.
+We make a statement learning the text editior that has a more impactful effect on our future networking rather than the one with the easier learning curve.
+
+This is a small start, but a symbolic one.
+
+We really have to start working on Math. Integrals have officially bored me out of my mind, but the sooner we start we'll still finish at the same time.
+You can call this a break of sorts even though I don't plan on spending money on food while I'm at school anymore.
+I guess you could call it some form of poverty driven intermittent fasting. As long as my mind works, but I have to get active. 
+I need to stop procrastinating before we wish we had more time. Is this really an account that you want to be clouded with 'I'? me! me! choose me!
+
+Or have you forgotten there is no church in the wild?
+
+Only discipline and dedication will get us through now. 
+
+So try to remember the objectives and the material laid out for the midterm exam. 
+Piazza is goated.
+
+11.4
+- Area in Polar Coordinates
+
+	-> We'll definitely need a unit circle expressed in radians along with a trig value chart like we did on previous sheets.
+	-> This is so that when instructed to find the area of a region with polar coordinates and need to find the angles.
+		-> Set radius = 0 if only one radius is provided. 
+		-> Set radius1 = radius2 if provided with two radi. 
+		-> Isolate theta by solving for either sin() or cos() This is where we will need the trig value chart to solve for theta .
+		-> Look at the region and deduct whether the radians on the unit circle correspond to the area given, and the result we got. 
+		-> Each solution for the theta will follow: (pi/n + pi/m(k)). The important notion of this line is to not forget to include 'k' in our work. 
+
+	-> Some other important things to note are: 
+		-> If theta is equal to pi/6, and the region resembles some form of circle across y-axis, the other angle is likely to be 5pi/6.
+		-> If theta is equal to 2pi, and the region resembles some form of circle across x-axis, the other angle is likely to be pi/2.
+
+		-> Equation: 1/2 integralOf(((r)^2)d(theta)) 
+
+		-> Power Reduction Identities: cos^2(theta) = (1/2)(1 + cos(2(theta)) 
+					       sin^2(theta) = (1/2)(1 - cos(2(theta))
+
+		-> Limits of Integration:
+			-> Set radius = 0 if only one radius is provided. 
+			-> Set radius1 = radius2 if provided with two radi. 
+
+
+Supplement 1
+- Complex Numbers
+	-> Since there were some hiccups finding solutions to quadratic equations, because negative square roots don't exist, we invented a new type of number!
+	-> A complex number is a number of the form: a + bi, where a and b are real numbers and i^2 = -1. 
+	
+	-> Operations and Properties of the complex number 
+		-> Given two complex numbers we can add, subtract, multiply, and divide them. 
+		-> To multiply, foil the two complex numbers together. This will result in another complex number. Keep in mind i^2 goes to -1. 
+		-> To divide, use the complex conjugate. So if a complex number is a + bi, the complex conjugate is a - bi. Flip the sign. 
+		-> Multiplying a complex number by its complex conjugate results in a non-negative real number: a^2 + b^2.<- (No i).
+		-> The absolute value of a complex number is the sqrt(a^2 + b^2).
+
+	-> Geometric Properties and the Polar form of a complex number
+		-> If z = a + bi and radius = sqrt(a^2 + b^2), then the polar form of a complex number is z = (radius)(cos(theta) + (i)sin(theta))
+		-> The abs(z) = radius
+
+		-> In order to convert a complex number to its polar form:
+			-> Find the radius using: r = sqrt(a^2 + b^2) 
+			-> Then use: cos(theta) = a/r  // sin(theta) = b/r
+			-> The final form should be: (radius)(cos(theta) + (i)(sin(theta)))
+
+	-> Multiplication and Division of Complex Numbers in Polar Form
+
+		-> Let z1 = (r1)((cos(theta1)) + (i)(sin(theta1))) and z2 = (r2)((cos(theta2)) + (i)(sin(theta2)))
+			-> (z1)(z2) = (r1)(r2)(cos(theta1 + theta2) + (i)(sin(theta1 + theta2))) 
+			-> (z1) / (z2) = (r1) / (r2)(cos(theta1 -  theta2) + (i)(sin(theta1 - theta2)))	
+		
+		-> The difference here lies in the intuitive operations.
+			-> If multiplying two complex numbers in polar form we multiply the radi and take the sum of theta for sin and cos.
+			-> If dividing two complex numbers in polar form we divide the radi and subtract the thetas for sin and cos. 
+
+		-> For an exponential ((a + bi)^n) = (r^n)(cos(theta(n)) + (i)(sin(theta(n))))	
+
+	
+Supplement 2 + 3
+- Complex Exponentials and the Integration of Functions that take complex values 
+	-> How should e^* be defined when * is a complex number?
+	-> e^z = e^(a + bi) = e^a(cos(b) + (i)(sin(b)))
+	-> (r)(e^i(theta)) = (r)(cos(theta) + i(sin(theta)))
+
+	-> For the following, if z is a complex number, replace x with z 
+		-> cos(x) = (e^ix + e^-ix) / (2)
+		-> sin(x) = (e^ix - e^-ix) / (2i)
+
+	-> Ultimately, the most important thing to practice on supplement 2 is pattern recognition. 
+	-> As long as all of these formulas make it on the sheet then we should be fine. 
+
+	-> Supplement 3 is a lecture worth rewatching. Maybe tonight after we make it home and rest for a bit. 
+	-> Supplement 2 predictably fits in nicely with it. 
+
+
+7.2
+- Trigonometric Integrals
+	-> Some odd power of sin or cos
+		-> sin^2() + cos^2() = 1
+		-> We use u-substitution along with some variation of this identity to solve the integral
+
+	-> Only even power of sin or cos
+		-> Rewrite the integrand using the Power Reduction trig identities:
+			-> cos^2(x) = (1/2)(1 + cos(2x)) 
+			-> sin^2(x) = (1/2)(1 - cos(2x)) 
+
+
+
+	-> If there is an even power of secant or an odd power of tangent with a factor of secant 
+		-> Use: 1 + tan^2(x) = sec^2(x)
+
+
+	-> It seems like there will more than likely be an integral on the exam with tangent and secant so make sure to add these formulas to notes:
+		-> integral of secant = ln abs(sec(x) + tan(x)) + C
+		-> integral of cosecant = -ln abs(csc(x) + cot(x)) + C
+
+	-> The main techniques will be to use algebra, substitution, and integration by parts, as well as rewriting the integrand in terms of an identity
+
+7.4 
+- Hyperbolic Integrals
+	-> There are one million and one theorems outlined in this section. I won't bother writing them here. 
+	-> However do make sure to include them in your sheet. Specifically the identities involved with h integrals. 
+	-> Include derivatives and integrals in the sheet as well if space allows. 
+
+7.5 
+- Method of Partial Fractions
+	-> Distinct Linear Factors
+		-> If the degree of the numerator is less than the degree of the denominator. So must be denominator > numerator. 
+			-> If numerator >= denominator, use polynomial long division
+	-> Repeated Linear Factors
+		-> If the factorable polynomial has a multiplicity greater than 1, then we repeat the denominator in our PFD until n iterations are complete. 
+	-> Irreducible Quadratic Factors
+		-> If b^2 - 4ac is less than 0, then factor is irreducible. 
+		-> Make constant on numerator Bx + C rather than just A
+
+	-> The two ways to solve the equations are evaluating the function, and equating coefficients
+
+
+7.7
+- Improper Integrals
+
+
+
+
+
+
+I'll continue to add information as my brain refreshes itself over time, but at the current moment it is fried.
+Speaking of which its fish taco day.
+Go get a taco and then maybe watch the supplement 3 lecture as I wait for Hannah to get out of class. 
+Then go pick my water bottle and make my way back. 
+Section 7.5 is another lecture worthy of taking a look at. There is reason to believe we have the tools to deal with any problem on the exam. 
+There is no way of knowing until the sheet gets implemented and we reevaluate our position on the grid.
+The rest of the class seems to be miles behind. This is an opportunity to pull ahead if there ever was one. 
+
+So we need some form of gameplan. Get the taco and watch a lecture. Whichever, its up to your discretion although supplemet 2 and 3 are a good place to start.
+Odds are 7.5 could use some love as well, now we are procrastinating getting food. I actually can't believe it. A race against the clock. 
+If I've ever seen one before. Call it for now. We can come back at night and see how long we last. 
+
+We'll play video games, sleep, and grind as soon as we wake up. Then would be a great time to start our sheet. We've done plenty, but more would be helpful. 
+
+We've woken up. It's 7 am and we have a midterm in 12 hours. The sheet takes priority. I say we smoke a bit now, and start working on it. 
+It should be fairly straight forward. One section at a time focusing on the theorems and formulas.
+As always we can start with the unit circle and trig values. Then by nature of relevance we can put each supplement on that same page.
+Continue with 7.2, 7.4, 7.5, and 7.7 on the back page. We have plenty of time. The focus really has to be preserving our brain power till later on at night. 
+Say it takes us 3 hours from start to finish. We'll be done by 11, leaving us with approximately 2 hours to rest before we head to school. 
+Lecture from 2-3, then study and review for CS12 for our quiz at 4, and then use the final two hours to review for the midterm or rest whichever one suits best.One thing I will say is you have a flight in the morning, so we should probably start getting ready for that as well. 
+We should probably check in before its too late. 
+
+Its time to focus up now. Loss of testosterone my ass. Could I have more? Is more good? Those are the questions I choose to ask.
+Financially we are in a very difficult spot. We have to look for a job. And we have to quit spending money until we don't. For now we have reserves in store. 
+Enough to make it to shore. Don't worry about money right now and just focus on doing your job. I've got you covered. This is for the long term. 
+Which means we have to perform well. Which means that nights like tonight are exactly where we show that our mind is on the right spot.
+Learn new things everyday. We need to clean our room and get our clothes ready. Eyes on the prize my guy. Start math now. In an hour start cleaning. 
+Do 30 min of that and then work for another hour. 30 min more of cleaning and then work for another hour.
+If we're not done by 11 we'll reevaluate. 
+
+We're probably fucked. For the lab, for the report, and for the skill demo. We'll get as much help as we can, but holy fuck am I beginning to resent Fran. 
+I don't know if it will work out, but I promise to do everything I can. For now all I can focus on is this quiz for CS12 and the midterm I have two hours after.Just breathe. I can feel a bit of anxiety seeping in. How in the hell are going to figure out how to do this. 
+Doable stuff for the lab report, and it might actually be realy helpful for us to figure out how to write it on our own. 
+Now would be the time to set ourselves up for the CS12 quiz that we're about to take. Then we can head somewhere to finish off the rest of our cheat sheet. 
+I could feel a lot worse for this exam to be fair. It doesn't look great, but something tells me I could figure my way through a lot of the problems. 
+
+There is really nothing left to do but wait and accept our fate. I look forward to learning how to use vim better, and seeing it it can ultimately replace VSC.
+There is plenty of game left to play. All we really have to do is get through today. Put a smile on our face for the weekend, and raise 0 trouble. 
+We are going for Fran, and there is nothing else to say about it. This is not for you. It is so that she can enjoy herself and her family. 
+Allow her to show you off to the world, and don't be resentful for it. After all it is what you always wanted. Moving on from the sappy shit. 
+
+The mountain ahead seems almost impossible to overcome. How is it that anyone breaks into this industry by merit alone. All I know is there is more to do.
+More to do than I have done before.  
+
+We'll sit and pretend we did what we could. This is the worst part. Once I have the exam in front of me I become a different man. 
+Undisturbed by time. It is just me and the words on the paper we become one. Just like Max and his car. There is an hour and a half left till game time. 
+In the mean time we can probably watch game 1 of the heat eastern conference finals. What a laugh that would be huh. Though weirdly I feel okay for the exam. 
+I'm a bit nervious, but I reviewd everything at least once. There shouldn't be anything that takes me by surprise. What I am slightly worried about. 
+Is my Mesut Ozil attitude towards practice exams. I legit show up to this shit it being my first time.
+It doesn't matter how well you know how to do something if you've never actually done it yourself. It's too late, but there is plenty of game left to play. 
+
+It looks more impressive this way. About as satisfying as my first. I don't know what there is left. Just give me a couple of weeks. 
+Fran this weekend and my friends the next. I'll find employment for the summer somewhere. Ideally a remote job, but this is wishful thinking. 
+My point is its almost time, but you need to be patient for a little while. Enjoy what will more than likely be the last two unemployed weeks of your life. 
+We are on the verge of absolute poverty, but there is something meaningful about what we've accomplished from the help of the government. 
+We wanted to prove something and I believe we have, but its officially almost itme to build upon that. Don't worry about the quiz. We'll get another chance. 
+Your last few weeks of school focus, and then onto personal focus. That will end up being your favorite. You just need to cross the learning curve. 
+To actually get into it. 
+
+
+
