@@ -72,12 +72,28 @@ And when running the tests through the bash script this is now the output:
 2. The contents of every file prior to debugging: 
 
 (The code)
+
 !['code'](pre-fix-code.png)
 
 (The bash script)
+
 !['bash script'](bash-script.png)
 
 (The test)
+
 !['test fails'](real-test-filter2.png)
+
+3. The full command line needed to trigger the bug: 
+
+```bash grade.sh https://github.com/JpDeSilva17/student_submission```
+
+4. Description of what to edit to fix the bug:
+
+In order to fix the bug, we need to delete the ```result ArrayList``` that is created outside of the method and instead initialize it within the ```filer()``` method. This allows the memory of the code to work properly and keep adequate track of the filtered elements. 
+
+# Part 2: Reflection
+
+My personal favorite topic that we learned about in the second portion of the class was the section on ```Vim```. I am relatively new to coding and I didn't know there was any text editor other than VS code. I was really excited to be able to access a text editor directly from the terminal on my computer that could handle all sorts of different files. I began to work on my CSE 12 Programming Assignments on ```Vim``` to get more experience with it and I really enjoyed it. I even switched my personal journal from a Google doc to ```Vim``` because of how much I enjoyed it. Inherently, using ```Vim``` provided me with a lot of practice using the command line and have since improved my type speed and my knowledge of the commands that help me get around the command line faster. 
+
 
 
