@@ -52,6 +52,8 @@ Your bash script does look correct. Good luck!
 
 Thank you for your response! I drew a memory diagram and realized that the ```result ArrayList``` was being used for each iteration of the method, so the behavior was off because every assertion on the ```filter()``` method carried the memory to the reference of the previous call. I decided to create the ```result ArrayList``` within the ```filter()``` method.
 
+!['memory diagram'](memory-diagram.png)
+
 My code now looks like this: 
 
 !['code fix'](fixed-filter-code.png)
