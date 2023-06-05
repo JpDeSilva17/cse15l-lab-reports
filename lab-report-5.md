@@ -27,6 +27,7 @@ command-line arguments, working directory, even the last few commands you ran. D
 My filter method is written in a file named ```student_submission.java```. First I create an ```ArrayList``` outside of the method named ```result``` in order to track the elements that are filtered by the ```StringChecker()``` method. I wrote ```junit``` tests to ensure that my filter method is working correcly and then ran my tests through a bash script file named ```grade.sh``` using the command:
 
 ```bash grade.sh https://github.com/JpDeSilva17/student_submission```
+
 I am confident that the error is not a result of the bash script since the tests are being run and the file is cloned correctly, but the test ```testFilter2()``` itself fails.
 
 This is my code: 
