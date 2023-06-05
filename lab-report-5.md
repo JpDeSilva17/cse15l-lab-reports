@@ -48,4 +48,14 @@ Have you tried creating the ```ArrayList``` inside of the ```filter()``` method?
 
 Your bash script does look correct. Good luck! 
 
+# Student Response
 
+Thank you for your response! I drew a memory diagram and realized that the ```result ArrayList``` was being used for each iteration of the method, so the behavior was off because every assertion on the ```filter()``` method carried the memory to the reference of the previous call. I decided to create the ```result ArrayList``` within the ```filter()``` method.
+
+My code now looks like this: 
+
+!['code fix'](fixed-filter-code.png)
+
+And when running the tests through the bash script this is now the output: 
+
+!['test pass'](test-pass.png)
