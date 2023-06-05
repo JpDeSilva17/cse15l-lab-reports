@@ -36,7 +36,7 @@ This is my code:
 
 And this is the test that fails:  
 
-!['test fails'](test-filter2.png)
+!['test fails'](real-test-filter2.png)
 
 Any input would be appreciated, thank you! 
 
