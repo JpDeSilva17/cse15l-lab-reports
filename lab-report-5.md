@@ -24,7 +24,8 @@ Here is the symptom from the terminal:
 **Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, 
 command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
 
-My filter method is written in a file named ```student_submission.java```. First I create an ```ArrayList``` outside of the method named ```result``` in order to track the elements that are filtered by the ```StringChecker()``` method. I wrote ```junit``` tests to ensure that my filter method is working correcly and then ran my tests through a bash script file named ```grade.sh``` using the command: 
+My filter method is written in a file named ```student_submission.java```. First I create an ```ArrayList``` outside of the method named ```result``` in order to track the elements that are filtered by the ```StringChecker()``` method. I wrote ```junit``` tests to ensure that my filter method is working correcly and then ran my tests through a bash script file named ```grade.sh``` using the command:
+
 ```bash grade.sh https://github.com/JpDeSilva17/student_submission```
 I am confident that the error is not a result of the bash script since the tests are being run and the file is cloned correctly, but the test ```testFilter2()``` itself fails.
 
