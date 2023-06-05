@@ -44,13 +44,14 @@ Any input would be appreciated, thank you!
 
 Hello student! I am sorry to see that you are having trouble with your code!
 
-Have you tried creating the ```ArrayList``` inside of the ```filter()``` method? It might help to draw out a memory diagram of what the code is doing to help understand why the code is behaving the way that it is. 
+Have you tried creating the ```ArrayList``` inside of the ```filter()``` method? 
+It might help to draw out a memory diagram of what the code is doing to help understand why the code is behaving the way that it is. 
 
-Your bash script does look correct. Good luck! 
+Your bash script does look to be correct. Good luck! 
 
 # Student Response
 
-Thank you for your response! I drew a memory diagram and realized that the ```result ArrayList``` was being used for each iteration of the method, so the behavior was off because every assertion on the ```filter()``` method carried the memory to the reference of the previous call. I decided to create the ```result ArrayList``` within the ```filter()``` method.
+Thank you for your response! I drew a memory diagram and realized that the ```result ArrayList``` was being used for each iteration of the method, so the behavior was off because every assertion on the ```filter()``` method carried the memory to the reference of the previous call. I decided to create the ```result ArrayList``` within the ```filter()``` method to get a fresh list for each new call to the method. This helps to avoid any collisions in behavior. 
 
 !['memory diagram'](memory-diagram.png)
 
@@ -61,3 +62,11 @@ My code now looks like this:
 And when running the tests through the bash script this is now the output: 
 
 !['test pass'](test-pass.png)
+
+# Setup Information
+
+1. The file & directory structure needed for the code was as follows. 
+
+!['structure'](structure.png)
+
+
