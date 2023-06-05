@@ -71,10 +71,13 @@ And when running the tests through the bash script this is now the output:
 
 2. The contents of every file prior to debugging: 
 
+(The code)
 !['code'](pre-fix-code.png)
 
+(The bash script)
 !['bash script'](bash-script.png)
 
+(The test)
 !['test fails'](real-test-filter2.png)
 
 
