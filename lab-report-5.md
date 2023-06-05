@@ -69,7 +69,12 @@ And when running the tests through the bash script this is now the output:
 
 !['structure'](structure.png)
 
-2. The contents of the code and tests prior to debugging were provided above in the student post. This is the bash script: 
+2. The contents of every file prior to debugging: 
+
+!['code'](pre-fix-code.png)
 
 !['bash script'](bash-script.png)
+
+!['test fails'](real-test-filter2.png)
+
 
