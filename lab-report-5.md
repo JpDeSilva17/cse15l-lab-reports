@@ -40,3 +40,12 @@ And this is the test that fails:
 
 Any input would be appreciated, thank you! 
 
+# TA Response: 
+
+Hello student! I am sorry to see that you are having trouble with your code!
+
+Have you tried creating the ```ArrayList``` inside of the filter method? It might help to draw out a memory diagram of what the code is doing to help understand why the code is behaving the way that it is. 
+
+Your bash script does look correct. Good luck! 
+
+
