@@ -93,7 +93,7 @@ In order to fix the bug, we need to delete the ```result ArrayList``` that is cr
 
 # Part 2: Reflection
 
-My personal favorite topic that we learned about in the second portion of the class was the section on ```Vim```. I am relatively new to coding and I didn't know there was any text editor other than VS code. I was really excited to be able to access a text editor directly from the terminal on my computer that could handle all sorts of different files. I began to work on my CSE 12 Programming Assignments on ```Vim``` to get more experience with it and I really enjoyed it. I even switched my personal journal from a Google doc to ```Vim``` because of how much I enjoyed it. Inherently, using ```Vim``` provided me with a lot of practice using the command line and have since improved my type speed and my knowledge of the commands that help me get around the command line faster. 
+My personal favorite topic that we learned about in the second portion of the class was the section on ```Vim```. I am relatively new to coding and I didn't know there was any text editor other than VS code. I was really excited to be able to access a text editor directly from the terminal on my computer that could handle all sorts of different files. I began to work on my CSE 12 Programming Assignments on ```Vim``` to get more experience with it and I really enjoyed it. I even switched my personal journal from a Google doc to text files on ```Vim``` because of how much I enjoyed experimenting with it. Inherently, using ```Vim``` provided me with a lot of practice using the command line and have since improved my type speed and my knowledge of the commands that help me get around the command line faster. 
 
 
 
