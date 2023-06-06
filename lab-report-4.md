@@ -68,9 +68,9 @@ Now that our changes to ```ListExamples.java``` have been completed we are ready
 First, we will enter the command ```git add ListExamples.java```. The ```git add``` command is used to let the system know that we want 
 to include the changes we made to ```ListExamples.java``` in our next commit. 
 
-The final step is to commit the changes using the command: ```git commit -m "added ListExamples.java"```. The ```git commit``` command 
-is used to commit the changes while ```-m``` is letting the system know that we plan on adding a commit message. In this case just noting 
-that the particular commit added changes to ```ListExamples.java```. 
+The final step is to commit and push the changes using the command: ```git commit -m "added ListExamples.java"```, and ```git push```
+The ```git commit``` command is used to commit the changes while ```-m``` is letting the system know that we plan on adding a commit message. In this case just noting that the particular commit added changes to ```ListExamples.java```. ```git push``` pushes our changes and our commits to the git repository that we forked earlier in the report. 
+
 
 # Conlusion
 
