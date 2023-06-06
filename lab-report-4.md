@@ -17,7 +17,7 @@ fast access, and press ```<enter>```.
 
 # Step 2: Clone fork of the repository from Github account 
 
-!['init, branch, clone'](git init.png)
+!['init, branch, clone'](git-init-new.png)
 
 Our first command is ```git init <enter>``` to initialize a new git repository to our current directory. This will display a historical message suggesting that we modify the name of our root branch, so we do: ```git branch -m main <enter>``` to take the recommendation. 
 
@@ -61,7 +61,7 @@ successful and that our tests on the shell script now pass on the bash interpret
 
 # Step 6: Commit and Push
 
-!['git commit'](git commit.png)
+!['git commit'](git-add-commit-push.png)
 
 Now that our changes to ```ListExamples.java``` have been completed we are ready to commit and push the changes to our Github account. 
 
