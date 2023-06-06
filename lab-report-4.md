@@ -46,8 +46,8 @@ the file that we want using the vim text editor. It is a powerful editor that al
 Now that we have the file open, we want to access the line that we want to change with as few commands as possible. The commands I chose 
 to enter were: ```44G <enter>``` on normal mode, this allows us to access line 44 on the file which is the line that we want to change.
 
-The next command, also on the original normal mode is: ```llllll``` this allows us to traverese the line to the right. The ```l``` command
-is used, because it is furthest to the right of the ```hjkl``` commands which are used to traverse in any direction in normal mode. 
+The next command, also on the original normal mode is: ```llllll``` this allows us to traverese the line to the right. The ```l``` keybind
+is used, because it is furthest to the right of the ```hjkl``` keybinds which are used to traverse in any direction in normal mode. 
 This is followed by: ```i``` to access Insert mode, and ```<bs>2``` to delete the ```1``` from the ```index1``` variable to change the 
 variable to ```index2```. Now that we have fixed our code we enter ```<esc>``` to leave Insert mode and go back to Normal mode. 
 Finally, we use ```:wq``` to save and quit the changes we made on our file. 
